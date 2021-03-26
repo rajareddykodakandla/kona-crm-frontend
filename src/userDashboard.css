@@ -1,0 +1,65 @@
+.sidenav {
+    width: 200px;
+    height: 100%;
+    background-color: #252C48;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+
+    background-color: #E9204F4D;
+    border-radius: 10px;
+}
+
+.links {
+    margin-top: 50px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.topnav NavLink {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.dashboard {
+    margin-left: 200px;
+    margin-top: 0px;
+    height: 100vh;
+    background-color: #1B203A;
+    color: white;
+    overflow: hidden;
+}
