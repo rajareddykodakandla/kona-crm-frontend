@@ -56,6 +56,7 @@ class changePassword extends React.Component {
             axios.post('http://localhost:8080/v1/user/updatePassword', body, header).then(
                 res => {
                     if (res.data) {
+                        sessionStorage.removeItem("token");
                         this.props.history.push("/login")
                     }
                 },
